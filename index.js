@@ -1,4 +1,5 @@
 var exist = [];
+//On submit
 document.getElementById("enter").addEventListener("click", function () {
     var v = parseInt(document.getElementById("subj").value);
     var err = document.getElementById("s_error");
